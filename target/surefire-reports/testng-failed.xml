@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [TestSuite]">
+  <test name="Test FireFox(failed)">
+    <classes>
+      <class name="com.expedia.FlightsBooking.TestNG_TestSuite">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="fill_basic_info"/>
+        </methods>
+      </class> <!-- com.expedia.FlightsBooking.TestNG_TestSuite -->
+    </classes>
+  </test> <!-- Test FireFox(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->
